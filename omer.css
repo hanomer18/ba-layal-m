@@ -12,3 +12,18 @@ h1 {
     margin: 50px 0 px;
 
 }
+
+#dynamic-list {
+    text-align: center;
+    color: wheat;
+    background-color: rgb(83, 23, 75)
+}
+
+#candidate {
+    width: :30px;
+    outline: none;
+    vertical-align: middle;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: red;
+}

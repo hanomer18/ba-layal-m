@@ -16,4 +16,3 @@ function removeItem() {
     var item = document.getElementById(candidate.value);
     ul.removeChild(item);
 }
-
