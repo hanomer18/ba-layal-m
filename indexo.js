@@ -2,17 +2,19 @@
 function addItem() {
 
     var ul = document.getElementById("dynamic-list");
-    var candidate = document.getElementById("candidate");
+    var inputtext = document.getElementById("inputtext");
     var li = document.createElement("li");
-    li.setAttribute("id", candidate.value);
-    li.appendChild(document.createTextNode(candidate.value));
+    li.setAttribute("id", inputtext.value);
+    li.appendChild(document.createTextNode(inputtext.value));
     ul.appendChild(li);
+    inputtext.value = ""
+
 }
 
 function removeItem() {
-
     var ul = document.getElementById("dynamic-list");
-    var candidate = document.getElementById("candidate");
-    var item = document.getElementById(candidate.value);
+    var inputtext = document.getElementById("inputtext");
+    var item = document.getElementById(inputtext.value);
     ul.removeChild(item);
+    inputtext.value = ""
 }

@@ -19,11 +19,24 @@ h1 {
     background-color: rgb(83, 23, 75)
 }
 
-#candidate {
+#inputtext {
     width: :30px;
     outline: none;
     vertical-align: middle;
     border: 2px solid orange;
     border-radius: 20px;
     color: red;
+}
+
+
+#b1:active {
+    background: burlywood;
+    color: black;
+}
+
+
+#b2:active {
+    background: rgb(126, 116, 75);
+    color: black;
+}
 }
